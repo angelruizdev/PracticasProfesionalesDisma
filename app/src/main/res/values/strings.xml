@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Disma</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Registrarme</string>
+    <string name="title_activity_menus">Menus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="peras">¿Cuántas peras hay?</string>
+
+    <string name="igual">=</string>
+    <string name="suma">+</string>
+    <string name="cero">0</string>
+    <string name="hazsuma">Haz la siguiente suma</string>
+    <string name="tocan">Toca los números</string>
+    <string name="tyc">Terminos y condiciones</string>
+    <string name="usuariof">Usuario</string>
+    <string name="emailf">Email</string>
+    <string name="contrasef">Contraseña</string>
+    <string name="registrarf">Registrar</string>
+    <string name="seleuno">Selecciona el número uno.</string>
+    <string name="seledos">Selecciona el número dos.</string>
+    <string name="seletres">Selecciona el número tres.</string>
+    <string name="selecuatro">Selecciona el número cuatro.</string>
+    <string name="selecinco">Selecciona el número cinco.</string>
+    <string name="seleseis">Selecciona el número seis.</string>
+    <string name="selesiete">Selecciona el número siete.</string>
+    <string name="seleocho">Selecciona el número ocho.</string>
+    <string name="selenueve">Selecciona el número nueve.</string>
+    <string name="selediez">Selecciona el número diez.</string>
+    <string name="uno">uno</string>
+    <string name="dos">dos</string>
+    <string name="tres">tres</string>
+    <string name="cuatro">cuatro</string>
+    <string name="cinco">cinco</string>
+    <string name="seis">seis</string>
+    <string name="siete">siete</string>
+    <string name="ocho">ocho</string>
+    <string name="nueve">nueve</string>
+    <string name="diez">diez</string>
+    <string name="tsigno">Toca cada signo.</string>
+    <string name="selesuma">Selecciona la suma</string>
+    <string name="seleresta">Selecciona la resta</string>
+    <string name="seledivi">Selecciona la división</string>
+    <string name="seleigual">Selecciona el signo igual</string>
+    <string name="regcor">¡Se registro correctamente!</string>
+    <string name="continuar">Continuar</string>
+    <string-array name="test">
+
+
+        <item>si</item>
+        <item>no</item>
+
+    </string-array>
+
+</resources>

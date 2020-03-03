@@ -1,0 +1,116 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.angelruiz.disma.discal">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="  Discalculia"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#99a7fa"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nino"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:text="La DISCALCULIA, es la dificultad cerebral del entendimiento básico matemático que obstaculiza el uso del sistema simbólico. Los niños con discalculia carecen de habilidad cognitiva, es por ello que les cuesta trabajo procesar y recordar las denominaciones. Como la dislexia, la discalculia puede ser causada por un déficit de percepción visual o problemas en cuanto a la orientación."/>
+
+             <Button
+                android:id="@+id/Button2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cerebro"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="¡Como afecta la Discalculia!"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:text="La discalculia se centra en las dificultades de comprensión y cálculos, lo que es un trastorno del lenguaje escrito simbólico matemático y aritmético como una operación, un  número, e inclusive un problema…(suma, resta, multiplicación y división),  desafortunadamente afecta a la población infantil ya que dicho padecimiento no es diagnosticada y tratada adecuadamente.
+Por lo tanto la discalculia se define como trastorno en las conexiones neuronales que es caracterizado por una variación específica que afecta en el aprendizaje de los conocimientos aritméticos básicos: adición (suma), sustracción (resta), multiplicación y división.
+"
+ />
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cerebro1"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:text="La discalculia afecta:
+•	La destreza de percepción, que es  la dificultad en la capacidad para reconocer,   entender y ordenar los grupos numéricos.
+•	La destreza matemática que es la realización de operaciones matemáticas.
+•	La destreza de atención que es la dificultad de copiar y observar símbolos operacionales correctos.
+
+Si la discalculia no es tratada como corresponde, deteriora la memoria lentamente ya que  no es capaz de obtener, guardar y recordar información matemática básica.
+"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

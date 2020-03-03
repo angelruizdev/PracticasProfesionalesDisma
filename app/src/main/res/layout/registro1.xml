@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.angelruiz.disma.Registro1">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/campoUsu"
+            android:layout_width="310dp"
+            android:layout_height="51dp"
+            android:background="@drawable/edittext_perso1"
+            android:padding="15dp"
+            android:maxLength="10"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="@string/usuariof"
+            android:inputType="textPersonName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/campoEma"
+            android:layout_width="310dp"
+            android:layout_height="51dp"
+            android:background="@drawable/edittext_perso1"
+            android:padding="15dp"
+            android:hint="@string/emailf"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="20sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/campoPass"
+            android:layout_width="310dp"
+            android:layout_height="51dp"
+            android:background="@drawable/edittext_perso1"
+            android:padding="15dp"
+            android:maxLength="7"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:inputType="textPassword"
+            android:hint="@string/contrasef"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/chbTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="@string/tyc"/>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:text="@string/registrarf"
+        android:textSize="20sp"
+        android:background="@drawable/btn_perso1"/>
+
+</LinearLayout>

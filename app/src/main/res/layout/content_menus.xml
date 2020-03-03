@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/fondop"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.angelruiz.disma.Menus"
+    tools:showIn="@layout/app_bar_menus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/menu1"
+            android:onClick="ir"
+            android:contentDescription="TODO"/>
+
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/menu2"
+            android:onClick="ir"
+            android:contentDescription="TODO"/>
+
+        <ImageButton
+            android:id="@+id/bt3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/menu3"
+            android:onClick="ir"
+            android:contentDescription="TODO"/>
+
+        <ImageButton
+            android:id="@+id/bt4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/menu4"
+            android:onClick="ir"
+            android:contentDescription="TODO"/>
+    </LinearLayout>
+</RelativeLayout>

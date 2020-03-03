@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.angelruiz.disma.deta">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="  Terminos y condiciones"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#99a7fa"/>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:text="DISMAT, es una app para  dispositivos móviles que cuenten con sistema operativo Android, la cual brinda una  herramienta de alta calidad para mejorar las habilidades cognitivas del infante que presenta discalculia ayudándolo a desarrollar su destreza de percepción matemática y atención.
+        "/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:text="
+***TERMINOS Y CONDICIONES***
+El presente documento establece las condiciones mediante las cuales se regirá el uso de la aplicación móvil: DISMAT.
+El aviso de privacidad vendrá incluido en algún apartado de esta App, en la cual se describen a detalle los términos y condiciones con las cuales debe de estar de acuerdo el usuario para poder hacer uso de este software.
+El usuario deberá contar con un dispositivo móvil inteligente (Smartphone) o Tableta con sistema operativo Android 4 en adelante.
+El Usuario se ve obligado a usar la aplicación y los contenidos encontrados en ella de una manera responsable y correcta, se compromete a no realizar lo siguiente:
+•	Utilizar los contenidos de forma contrarios a la ley.
+•	Reproducir, copiar, representar, utilizar, distribuir, transformar o modificar los contenidos de la aplicación.
+"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:text="
+•Suprimir, eludir o manipular el derecho de autor y demás datos identificativos de los derechos de autor incorporados a los contenidos.
+•Emplear los contenidos y, en particular, la información de cualquier clase obtenida a través de la aplicación para distribuir, transmitir, remitir, modificar, rehusar o reportar la publicidad o los contenidos de esta con fines de venta directa o con cualquier otra clase de finalidad comercial, así como comercializar o divulgar de cualquier modo dicha información.
+Todo el material informático, gráfico, publicitario, fotográfico, de multimedia, visual y de diseño, así como todos los contenidos, textos y bases de datos puestos a su disposición en esta aplicación están protegidos por derechos de autor y/o propiedad industrial cuyo titular es DISMAT.
+Todos los contenidos en la aplicación están protegidos por las normas sobre derecho de autor y por todas las normas nacionales e internacionales que le sean aplicables.
+Ninguna parte de la aplicación podrá ser reproducida o transmitida o almacenada en otro medio o sistema electrónico.
+"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

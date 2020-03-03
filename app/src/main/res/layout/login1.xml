@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo5"
+    tools:context="com.example.angelruiz.disma.Login1">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_perso"
+            android:maxLength="10"
+            android:inputType="textPersonName"
+            android:hint="Usuario"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/etContraseña"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:padding="15dp"
+            android:background="@drawable/edittext_perso"
+            android:maxLength="7"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint="Contraseña"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="337dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:background="@drawable/btnsesion1"/>
+</LinearLayout>
